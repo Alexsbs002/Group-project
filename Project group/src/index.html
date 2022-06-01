@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/all.css">
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    
+     
     <script>
   $(window).on('load', function () {
     $preloader = $('.loaderArea'),
@@ -39,27 +41,29 @@
    
    
 
-    <header>
-        <nav>
+    <header >
+        <nav class="header" id="header">
             <div class="logo">Companiya</div>
             
             <div class="menu"><ul>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Кейсы</a></li>
-                <li><a href="#">Прайс</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a class="nav_link" id="link1" href="#">О нас</a></li>
+                <li><a class="nav_link" id="link2" href="#">Услуги</a></li>
+                <li><a class="nav_link" id="link3" href="#">Кейсы</a></li>
+                <li><a class="nav_link" id="link4" href="#">Прайс</a></li>
+                <li><a class="nav_link" id="link5" href="#">Отзывы</a></li>
+                <li><a class="nav_link" id="link6" href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     
+    
+    
     <div class="main"><div class="title__container">
         <h1>Привет <br> Мы - Companiya</h1>
         <h4><i class="fa-brands fa-css3"></i>Мы - веб-разработчики</h4>
-        <input type="submit" value="О нас">
-        <input type="submit" value="Наши работы">
+        <input id="butt1" type="submit" value="О нас">
+        <input id="butt2" type="submit" value="Наши работы">
     </div>
     </div>
     
@@ -255,5 +259,6 @@
         <p>Copyright© 2022 Company. Design by Web</p>
     </div>  
     
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
